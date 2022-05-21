@@ -22,13 +22,14 @@
 
         </p>
         <p>
-            <input class="btn btn-lg btn-primary" id="loginbtn" type="button" onclick="sendtext()" value="Send Text">
+            <input class="btn btn-lg btn-primary" id="sendtext" type="button" onclick="sendtext()" value="Send Text">
         </p>
         <p>
             <label class="stepcount" for="password">One Time Password</span></label><br>
             <input class="stepcount" type="password" id="password" name="pwd" size="25" onchange="setuserpassword()" required >
         </p>
-        
+            <input class="btn btn-lg btn-primary" id="loginbtn" type="button" onclick="userlogin()" value="Login">
+
         <p>
             <a class="stepcount" id="newusr" href="/createcustomer.html">Create account</a>
         </p>
